@@ -24,7 +24,7 @@ auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
 
-
+/* */
 def scraptweets(search_words, date_since, numTweets, numRuns):
 
     db_tweets = pd.DataFrame(columns = ['username', 'acctdesc', 'location', 'following',
