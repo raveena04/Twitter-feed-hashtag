@@ -474,7 +474,7 @@ def calculate_trigram_perplexity(model, sentences):
           a = 0
         trigram_sentence_probability_log_sum -= a
     return math.pow(2, trigram_sentence_probability_log_sum / number_of_trigrams)
-
+//
 import math
 print("PERPLEXITY over Training Data with bigram:", calculate_bigram_perplexity(bigramAddOne, data_sents))
 print("PERPLEXITY over Test Data with bigram:", calculate_bigram_perplexity(bigramAddOne, data_sents_test))
